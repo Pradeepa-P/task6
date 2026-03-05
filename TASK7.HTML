@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document Of HTML</title>
+        <style>
+            table{
+                border-collapse: collapse;
+                border-spacing: 10px;
+                width:80%;
+                margin:20px auto;
+                background-color: aquamarine;
+                border: solid;
+            }
+            table.withspacing{
+                border-collapse: separate;
+                border-spacing: 10px;
+                width:50%;
+                margin:20px auto;
+            }
+            th,td{
+                border:1px solid black;
+                padding: 10px;
+                text-align: center;
+            }
+            th{
+                background-color: antiquewhite;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">ONLINE SHOPPING PLATFORM</h1>
+        <h2>LIST OF DRESSES FOR GIRLS</h2>
+        <ol>
+            <img src="img/kurtha.jpeg" style="width: 250px;" height="250px">
+            <li>Kurtha set</li><br>
+            <img src="img/lehenga.jpeg" style="width: 250px;" height="250px">
+            <li >Lehenga</li><br>
+            <img src="img/saree.jpeg" style="width: 250px;" height="250px">
+            <li >Sarees</li><br>
+            <img src="img/crop top.jpeg" style="width: 250px;" height="250px">
+            <li >Crop Tops</li><br>
+            <img src="img/maxi.jpeg" style="width: 250px;" height="250px">
+            <li >Maxi</li>
+        </ol>
+        <br>
+        <table class=withspacing" style="border: 1;">
+            <tr>
+                <th >Dress Type</th> 
+                <th>Cost</th> 
+                <th>Discount</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Saree in silk and satin material</td> <td>2000</td> <td> 100</td> <td>1900</td>
+            </tr>
+            <tr>
+                <td>1800</td> <td>100</td> <td>1700</td>
+            </tr>
+            <tr>
+                <td>Kurtha</td> <td>1500</td> <td>50</td> <td>1450</td>
+            </tr>
+            <tr>
+                <td>Lehenga</td> <td>3000</td> <td>500</td> <td>500</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>LIST OF DRESSES FOR BOYS</h2>
+        <ul>
+            <img src="img/formal.jpeg"  style="height: 250px;" width="250px">
+            <li>Formal Wear</li><br>
+            <img src="img/casual.jpeg" style="height: 250px;" width="250px">
+            <li>Casual Wear</li><br>
+            <img src="img/traditional.jpg" style="height: 250px;" width="250px">
+            <li>Tradional Wear</li><br>
+            <img src="img/jeans.jpeg" style="height: 250px;" width="250px">
+            <li>Jeans</li>
+        </ul>
+        <table class="colspan" style="width: 50px;">
+            <tr>
+                <th>Dress Type</th> <th>Cost</th> <th colspan="2">Discount & Total </th> 
+            </tr>
+            <tr>
+                <td>Casual wear</td> <td>2000</td> <td> 100</td> <td>1900</td>
+            </tr>
+            <tr>
+                <td>Formal Wear</td> <td>1500</td> <td>50</td> <td>1450</td>
+            </tr>
+            <tr>
+                <td>Traditional Wear</td> <td>3000</td> <td>500</td> <td>500</td>
+            </tr>
+            
+        </table>
+        
+    </body>
+</html>
